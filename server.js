@@ -41,4 +41,4 @@ app.listen(process.env.PORT, () => {
     console.log('Express server started at port : 3000');
 });
 
-app.use('',employeeController);
+app.use('/employee',employeeController);
